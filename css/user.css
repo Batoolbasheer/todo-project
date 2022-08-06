@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+/* ............................... nav ........................ */
+nav{
+    background: #0078AA;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: #F6F6F6;
+}
+nav a:hover{
+    color: #3AB4F2;
+}
+/* ................................ logo ....................... */
+.logo{
+    flex: 1;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.logo a:hover{
+    color: #3AB4F2;
+}
+.logo img{
+    width: 40px;
+    margin-right: 10px;
+}
+/* ................................... menue ................. */
+ .menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu li{
+    padding: 15px;
+    font-size: 16px;
+}
+/* .......................... footer ........................ */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background: #F6F6F6;
+}
+.footer span{
+    color: #0078AA;
+}
+.footer a{
+    color: #0078AA;
+}
+.footer a:hover{
+    color: #3AB4F2;
+}
+.footer p{
+    color: #0078AA;
+}
+/* ................................................................................................. */
+main{
+    background-image: url(/img/summer-sky.jpeg);
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+main p{
+    color: #F6F6F6;
+    background: #0078AA;
+}
+/* ............................................................................................... */
+.container{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+/* .................................................... */
+form{
+    background: #0078AA;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+form h3{
+    color: #F2DF3A;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px;
+    padding: 20px;
+    outline: non;
+    background: #F6F6F6;
+    font-size: 16px;
+}
+
+form select{
+    border: 0;
+    margin: 10px;
+    padding: 20px;
+    outline: non;
+    background: #F6F6F6;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background: #F2DF3A;
+    color: #0078AA;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
+}
