@@ -1,4 +1,6 @@
 var userName = prompt("Please enter your Name and Surname","Batool Basheer");
+
+// ..................................................................
         var gender = prompt("Please enter your gender","female");
 
         if (gender == 'female')
