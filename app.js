@@ -1,7 +1,19 @@
-var userName=prompt("Hello ,Enter your name pleas!");
+var userName = prompt("Please enter your Name and Surname","Batool Basheer");
+        var gender = prompt("Please enter your gender","female");
 
-userGender=prompt("ok"+" "+userName +" "+ "What is your gender?")
-userGender = "Female" ? alert("Welcome Ms"+" "+userName) : alert("Welcome Mr"+" "+userName);
+        if (gender == 'female')
+        {
+            alert("Welcome, MS. " + userName);
+
+        }
+        else if (gender == 'male')
+        {
+            alert("Welcome, MR. " + userName);
+
+        } else {
+            alert("Welcome, Unknown gender ("+ gender +") " + userName);
+        }
+// ..................................
 
 var userAge = prompt("Enter your Age :");
 if (userAge <= 0) {}
